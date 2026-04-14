@@ -153,7 +153,7 @@ strong { color: var(--accent); font-weight: 500; }
 
 .hero-name {
   font-family: var(--font-display);
-  font-size: clamp(3.5rem, 9vw, 7.5rem);
+  font-size: clamp(3.5rem, 6vw, 7.5rem);
   font-weight: 300;
   line-height: 1.05;
   color: var(--text);
@@ -517,4 +517,5 @@ strong { color: var(--accent); font-weight: 500; }
   .section { padding: 4rem 0; }
   .skills-grid { grid-template-columns: 1fr; }
   .about-stats { gap: 1.5rem; }
+  .hero-name {font-size: clamp(3.5rem, 4vw, 7.5rem);}
 }
